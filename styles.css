@@ -1,0 +1,67 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #990147; /* Purple */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+.featured {
+    width: 200px; /* size */
+}
+
+.portfolio {
+    display: flex;
+}
+
+.portfolio img {
+    margin-right: 10px;
+}
+
+/* Purple theme "maybe"*/
+h1, h2 {
+    color: #990147; 
+}
+
+
+@media (max-width: 768px) {
+    
+    header {
+        padding: 5px;
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .portfolio img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
